@@ -39,8 +39,8 @@ Pod::Spec.new do |s|
 	  'ENABLE_BITCODE' => 'YES' 
 	}
 
-    ss.ios.dependency 'BigInt',
-    ss.ios.dependency 'PromiseKit',
+    ss.ios.dependency 'BigInt'
+    ss.ios.dependency 'PromiseKit'
   end
   
   s.subspec 'AbieosSerializationProvider' do |ss|
